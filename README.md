@@ -13,6 +13,6 @@ Currently being used in combination dnsmasq and /etc/hosts to remove/timeout ad 
 
 ### set it up
 
-about:debugging > Load Temporary Plugin > manifest.json
+in the urlbar navigate to **about:debugging** > Load Temporary Plugin > manifest.json
 
 ![Image of setup](images/setup.png?raw=true "firefox setup")
