@@ -1,0 +1,19 @@
+{
+
+  "description": "Removes ads",
+  "manifest_version": 2,
+  "name": "Noadz",
+  "version": "1.0",
+  "homepage_url": "http://blah.com/",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/"],
+      "js": ["twitter.js"]
+    }
+  ]
+
+}
