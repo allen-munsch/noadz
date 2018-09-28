@@ -10,4 +10,9 @@ Currently being used in combination dnsmasq and /etc/hosts to remove/timeout ad 
 
  - https://gist.github.com/allen-munsch/b35dc1c3a89cdc606ab7901b060bd9a1
 
+
+### set it up
+
+about:debugging > Load Temporary Plugin > manifest.json
+
 ![Image of setup](images/setup.png?raw=true "firefox setup")
