@@ -13,6 +13,10 @@
     {
       "matches": ["*://twitter.com/"],
       "js": ["twitter.js"]
+    },
+    {
+      "matches": ["https://www.facebook.com/"],
+      "js": ["facebook.js"]
     }
   ]
 
