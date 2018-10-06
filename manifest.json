@@ -1,6 +1,6 @@
 {
 
-  "description": "Removes ads",
+  "description": "Remove ads, scrape a site, other stuff too.",
   "manifest_version": 2,
   "name": "Noadz",
   "version": "1.0",
@@ -17,7 +17,17 @@
     {
       "matches": ["https://www.facebook.com/"],
       "js": ["facebook.js"]
+    },
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["scrape_amazon.js"]
     }
+  ],
+  "permissions": [
+      "<all_urls>",
+      "webRequest",
+      "storage",
+      "nativeMessaging"
   ]
 
 }
